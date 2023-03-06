@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calendar</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <style>
+      table {
+        background-color: white;
+        font-family: sans-serif;
+        width: 70%;
+        margin: 8% auto;
+        border-spacing: 0;
+        border-collapse: collapse;
+      }
+
+      body {
+        background-color: coral;
+      }
+      td,
+      th {
+        min-width: 3.5em;
+        font-weight: 400;
+      }
+      th {
+        background-color: rgb(24, 16, 16);
+        color: white;
+        font-size: 0.7em;
+        padding-top: 1.8em;
+        padding-bottom: 1.8em;
+        font-weight: 900;
+      }
+      td {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        font-size: 0.825em;
+        text-align: center;
+        color: rgb(52, 48, 48);
+      }
+      .numbers td {
+        padding: top 2em;
+      }
+      .last td{
+        padding-bottom: 3em;
+      }
+      span{
+        background-color: coral;
+        padding: 9px 10px;
+        border-radius: 50%;
+        color: white;
+      }
+      @media screen and (min-width: 768px){
+    th {
+        font-size: .9em;
+    }
+    td {
+        font-size: 1.25em;
+    }
+}
+    </style>
+  </head>
+  <body>
+    <table>
+      <div>
+        <tr>
+          <th>MON</th>
+          <th>TUE</th>
+          <th>WED</th>
+          <th>THU</th>
+          <th>FRI</th>
+          <th>SAT</th>
+          <th>SUN</th>
+        </tr>
+      </div>
+      <tr class="numbers">
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td><span>14</span></td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+      </tr>
+      <tr>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+      </tr>
+      <tr class="last">
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+      </tr>
+    </table>
+  </body>
+</html>

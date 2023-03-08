@@ -1,0 +1,30 @@
+table {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    margin: 8% auto;
+    border-spacing: 0px;
+  }
+  th {
+    background-color: black;
+    color: white;
+    font-size: 0.9em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: 900;
+  }
+  td {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 0.825em;
+    text-align: center;
+    color: black;
+  }
+  .file1 td{
+    padding: top 2em;
+    background-color: rgb(241, 235, 235);
+  }
+  .file3 td{
+    padding: top 2em;
+    background-color: rgb(241, 235, 235);
+  }
